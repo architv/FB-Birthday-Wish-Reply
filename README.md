@@ -16,4 +16,4 @@ python fbBDayReply.py
 
 Now sit back and watch the terminal.
 
-######Source: The source code is taken from [here](http://www.quora.com/What-are-the-best-Python-scripts-youve-ever-written/answer/Akshit-Khurana) with a few tweaks to like the post and add "sir" to the reply for college seniors.
+######Source: @2x The source code is taken from [here](http://www.quora.com/What-are-the-best-Python-scripts-youve-ever-written/answer/Akshit-Khurana) with a few tweaks to like the post and add "sir" to the reply for college seniors.
