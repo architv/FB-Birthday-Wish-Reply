@@ -4,7 +4,7 @@ FB-Birthday-Wish-Reply is a python script to reply to all the birthday wishes on
 
 ##Usage:
 
-*  Copy and paste the token from (https://developers.facebook.com/tools/explorer/)[Facebook Graph API explorer] with appropriate permissions 
+*  Copy and paste the token from [Facebook Graph API explorer](https://developers.facebook.com/tools/explorer/)with appropriate permissions 
 *  Change the timestamp to your birthday
 *  Change the limit accordingly if your number of friends are greater than 200
 
@@ -16,5 +16,4 @@ python fbBDayReply.py
 
 Now sit back and watch the terminal.
 
-######Source: 
-Most of the source code is taken from (http://www.quora.com/What-are-the-best-Python-scripts-youve-ever-written/answer/Akshit-Khurana)[Here] with a few tweaks.
+######Source: The source code is taken from [Here](http://www.quora.com/What-are-the-best-Python-scripts-youve-ever-written/answer/Akshit-Khurana) with a few tweaks to like the post and add "sir" to the reply for college seniors.
