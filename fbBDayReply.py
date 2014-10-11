@@ -25,10 +25,10 @@ def commentall(wallposts):
             r = requests.get('https://graph.facebook.com/%s' % wallpost['actor_id'])
             url = 'https://graph.facebook.com/%s/comments' % wallpost['post_id']
             user = json.loads(r.text)
-            if wallpost['actor_id'] == 1347153329 or wallpost['actor_id'] == 1673833632:
-                message = "Thanks " + user['first_name'] + " sir :)"
-            else:
-                message = "Thanks " + user['first_name'] + " :)"
+            # if wallpost['actor_id'] == 1347153329 or wallpost['actor_id'] == 1673833632:
+            #     message = "Thanks " + user['first_name'] + " sir :)"
+            # else:
+            message = "Thanks " + user['first_name'] + " :)"
             print message
             payload = {'access_token': TOKEN, 'message': message}
             s = requests.post(url, data=payload)
